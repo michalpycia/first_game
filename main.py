@@ -123,7 +123,7 @@ while running:
             bulletY = 480
             bullet_state = "ready"
             score_value += 1
-            
+
             enemyX[i] = random.randint(0, 736)
             enemyY[i] = random.randint(50, 150)
         enemy(enemyX[i], enemyY[i], i)
